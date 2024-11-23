@@ -4,7 +4,7 @@ import { redirect } from "next/navigation"
 import { saveMeal } from "./meal"
 import { revalidatePath } from "next/cache"
 
-  function isInvaildText(text){
+  function isInvalidText(text){
     return !text || text.trim() === ''
   }
 
